@@ -26,6 +26,11 @@ export const auth = betterAuth({
     enabled: true,
     requireEmailVerification: false,
   },
+  account: {
+    accountLinking: {
+      requireLocalEmailVerified: false,
+    },
+  },
   socialProviders: {
     ...(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET
       ? {

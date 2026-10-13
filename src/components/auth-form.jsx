@@ -122,7 +122,7 @@ export function AuthForm({ mode }) {
                   autoComplete="name"
                   maxLength={80}
                   name="name"
-                  placeholder="যেমন: নুসরাত জাহান"
+                  placeholder="যেমন: কবির উল্লাহ সাহেব "
                   required
                 />
               </span>
